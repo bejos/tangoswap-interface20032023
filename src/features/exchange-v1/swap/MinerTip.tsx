@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, CoreDao } from '@cryptoscalper/sdk'
+import { ChainId, CurrencyAmount, CoreDAO } from '@cryptoscalper/sdk'
 import {
   useUserArcherETHTip,
   useUserArcherGasPrice,
@@ -105,7 +105,7 @@ export default function MinerTip() {
           Miner Tip
         </Typography>
         <Typography variant="sm" className="text-secondary" onClick={toggleSettings}>
-          {CurrencyAmount.fromRawAmount(CoreDao.onChain(ChainId.COREDAO), userETHTip).toFixed(3)} BCH
+          {CurrencyAmount.fromRawAmount(CoreDAO.onChain(ChainId.COREDAO), userETHTip).toFixed(3)} BCH
         </Typography>
       </div>
       {!userTipManualOverride && (
