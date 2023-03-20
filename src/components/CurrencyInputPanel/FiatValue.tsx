@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Percent } from '@tangoswapcash/sdk'
+import { Currency, CurrencyAmount, Percent } from '@cryptoscalper/sdk'
 import React, { useMemo } from 'react'
 
 import { t } from '@lingui/macro'

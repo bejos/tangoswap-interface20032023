@@ -1,4 +1,4 @@
-import { ChainId, Percent } from '@tangoswapcash/sdk'
+import { ChainId, Percent } from '@cryptoscalper/sdk'
 import React, { useRef, useState } from 'react'
 import {
   useExpertModeManager,

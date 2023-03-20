@@ -1,7 +1,7 @@
 import { Field, replaceSwapState, selectCurrency, setRecipient, switchCurrencies, typeInput } from './actions'
 
 import { createReducer } from '@reduxjs/toolkit'
-import { ChainId, TANGO_ADDRESS } from '@tangoswapcash/sdk'
+import { ChainId, TANGO_ADDRESS } from '@cryptoscalper/sdk'
 
 export interface SmartSwapState {
   readonly independentField: Field

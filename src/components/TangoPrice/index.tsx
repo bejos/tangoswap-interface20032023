@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { BCUSDT, FLEXUSD, TANGO } from '../../config/tokens'
 import { useV2TradeExactIn as useTradeExactIn } from '../../hooks/useV2Trades'
 import { tryParseAmount } from '../../functions/parse'
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import axios from 'axios'
 
 const TangoPrice = () => {

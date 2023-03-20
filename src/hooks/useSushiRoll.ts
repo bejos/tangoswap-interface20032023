@@ -1,4 +1,4 @@
-import { ChainId } from "@tangoswapcash/sdk";
+import { ChainId } from "@cryptoscalper/sdk";
 // import LPToken from "../types/LPToken";
 import { ethers } from "ethers";
 import { BigNumber } from '@ethersproject/bignumber'

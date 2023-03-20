@@ -1,6 +1,6 @@
 // CONVENTION formatFoo -> string
 
-import { Currency, CurrencyAmount, Fraction, JSBI, Price } from '@tangoswapcash/sdk'
+import { Currency, CurrencyAmount, Fraction, JSBI, Price } from '@cryptoscalper/sdk'
 
 import { BigNumberish } from '@ethersproject/bignumber'
 import { formatUnits } from '@ethersproject/units'

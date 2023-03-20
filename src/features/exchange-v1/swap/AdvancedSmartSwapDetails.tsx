@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, CoreDao, Percent, TradeSmart } from '@tangoswapcash/sdk'
+import { ChainId, Currency, CurrencyAmount, CoreDao, Percent, TradeSmart } from '@cryptoscalper/sdk'
 import React, { useMemo } from 'react'
 import { RowBetween, RowFixed } from '../../../components/Row'
 

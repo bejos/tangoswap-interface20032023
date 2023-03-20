@@ -23,7 +23,7 @@ import {
   MASTERCHEF_ADDRESS,
   MASTERCHEF_V2_ADDRESS,
   Currency,
-} from '@tangoswapcash/sdk'
+} from '@cryptoscalper/sdk'
 import { TANGO, FLEXUSD } from '../../../config/tokens'
 import Container from '../../../components/Container'
 import FarmList from '../../../features/onsen/FarmList'

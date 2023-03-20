@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, JSBI } from '@tangoswapcash/sdk'
+import { Currency, CurrencyAmount, Fraction, JSBI } from '@cryptoscalper/sdk'
 
 import React from 'react'
 

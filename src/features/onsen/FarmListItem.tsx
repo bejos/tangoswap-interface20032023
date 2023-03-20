@@ -1,6 +1,6 @@
 import { classNames, formatNumber, formatPercent } from '../../functions'
 
-import { ZERO } from '@tangoswapcash/sdk'
+import { ZERO } from '@cryptoscalper/sdk'
 import { Disclosure } from '@headlessui/react'
 import DoubleLogo from '../../components/DoubleLogo'
 import FarmListItemDetails from './FarmListItemDetails'

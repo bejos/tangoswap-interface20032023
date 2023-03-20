@@ -1,5 +1,5 @@
 import { ANALYTICS_URL } from '../../constants'
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import ExternalLink from '../ExternalLink'
 import Polling from '../Polling'
 import { t } from '@lingui/macro'

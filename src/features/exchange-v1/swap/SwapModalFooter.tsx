@@ -1,4 +1,4 @@
-import { Currency, TradeType, Trade as V2Trade } from '@tangoswapcash/sdk'
+import { Currency, TradeType, Trade as V2Trade } from '@cryptoscalper/sdk'
 import React, { ReactNode } from 'react'
 
 import { ButtonError } from '../../../components/Button'

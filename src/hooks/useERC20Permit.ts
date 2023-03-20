@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, JSBI, Percent, Token, TradeType, Trade as V2Trade } from '@tangoswapcash/sdk'
+import { ChainId, Currency, CurrencyAmount, JSBI, Percent, Token, TradeType, Trade as V2Trade } from '@cryptoscalper/sdk'
 import { TANGO } from '../config/tokens'
 import { useMemo, useState } from 'react'
 

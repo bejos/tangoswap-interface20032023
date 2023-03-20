@@ -1,4 +1,4 @@
-import { ChainId, Currency, NATIVE, WNATIVE } from '@tangoswapcash/sdk'
+import { ChainId, Currency, NATIVE, WNATIVE } from '@cryptoscalper/sdk'
 
 import { tryParseAmount } from '../functions/parse'
 import { getGasPrice } from '../functions/trade'

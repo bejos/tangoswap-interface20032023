@@ -1,4 +1,4 @@
-import { Currency, TradeSmart } from '@tangoswapcash/sdk'
+import { Currency, TradeSmart } from '@cryptoscalper/sdk'
 import React, { ReactNode } from 'react'
 
 import { ButtonError } from '../../../components/Button'

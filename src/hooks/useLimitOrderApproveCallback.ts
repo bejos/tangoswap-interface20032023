@@ -8,7 +8,7 @@ import {
   Trade as V2Trade,
   AddressMap,
   ORDERS_CASH_V1_ADDRESS,
-} from '@tangoswapcash/sdk'
+} from '@cryptoscalper/sdk'
 
 import { ApprovalState, useApproveCallback } from '.'
 import { useActiveWeb3React } from './useActiveWeb3React'

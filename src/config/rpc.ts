@@ -1,7 +1,7 @@
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 
 const RPC = {
-  [ChainId.COREDAO]: 'https://smartbch.greyh.at',
+  [ChainId.COREDAO]: 'https://rpc.coredao.org/',
   [ChainId.COREDAO_AMBER]: 'https://moeing.tech:9545',
 }
 

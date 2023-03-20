@@ -8,7 +8,7 @@
 
 // import { Field } from '../state/swap/actions'
 // import { MaxUint256 } from '@ethersproject/constants'
-// import { Token } from '@tangoswapcash/sdk'
+// import { Token } from '@cryptoscalper/sdk'
 // import { ethers } from 'ethers'
 // import { useActiveWeb3React } from './useActiveWeb3React'
 // import { useBentoMasterContractAllowed } from '../state/bentobox/hooks'

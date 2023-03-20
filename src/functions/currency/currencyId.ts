@@ -1,4 +1,4 @@
-import { ChainId, Currency } from '@tangoswapcash/sdk'
+import { ChainId, Currency } from '@cryptoscalper/sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency.isNative) return 'BCH'

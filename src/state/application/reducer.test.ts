@@ -1,4 +1,4 @@
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import { createStore, Store } from 'redux'
 import { addPopup, ApplicationModal, removePopup, setOpenModal, updateBlockNumber } from './actions'
 import reducer, { ApplicationState } from './reducer'

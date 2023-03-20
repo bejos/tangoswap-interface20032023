@@ -10,7 +10,7 @@ import {
   useTokens,
 } from '../../../services/graph'
 
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import { getFraction } from '../../../functions'
 import { uniq } from 'lodash'
 import { useActiveWeb3React } from '../../../hooks'

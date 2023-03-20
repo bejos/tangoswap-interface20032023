@@ -3,7 +3,7 @@ import Modal from '../../components/Modal'
 import ModalHeader from '../../components/ModalHeader'
 import CurrencyLogo from "../../components/CurrencyLogo";
 import RoutingCurrencyBox from "../../components/RoutingCurrencyBox";
-import { Currency } from "@tangoswapcash/sdk";
+import { Currency } from "@cryptoscalper/sdk";
 import { groupBy } from "lodash";
 import { PARTS } from "../../hooks/useSmartTrades";
 import { useLingui } from '@lingui/react'

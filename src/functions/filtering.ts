@@ -1,4 +1,4 @@
-import { Token } from '@tangoswapcash/sdk'
+import { Token } from '@cryptoscalper/sdk'
 import { TokenInfo } from '@uniswap/token-lists'
 import { isAddress } from './validate'
 import { useMemo } from 'react'

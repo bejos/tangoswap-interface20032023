@@ -1,4 +1,4 @@
-import { JSBI, Percent } from '@tangoswapcash/sdk'
+import { JSBI, Percent } from '@cryptoscalper/sdk'
 
 import { basisPointsToPercent } from './basisPointsToPercent'
 

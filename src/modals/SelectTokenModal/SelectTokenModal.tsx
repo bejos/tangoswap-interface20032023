@@ -1,4 +1,4 @@
-import { Currency } from '@tangoswapcash/sdk'
+import { Currency } from '@cryptoscalper/sdk'
 import React, { useCallback } from 'react'
 
 import CurrencyModalView from './CurrencyModalView'

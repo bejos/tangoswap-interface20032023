@@ -1,4 +1,4 @@
-// import { CurrencyAmount, JSBI, Token } from '@tangoswapcash/sdk'
+// import { CurrencyAmount, JSBI, Token } from '@cryptoscalper/sdk'
 
 // import { t } from '@lingui/macro'
 // import { tryParseAmount } from '../../functions'

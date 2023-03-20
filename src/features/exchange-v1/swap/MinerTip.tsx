@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, CoreDao } from '@tangoswapcash/sdk'
+import { ChainId, CurrencyAmount, CoreDao } from '@cryptoscalper/sdk'
 import {
   useUserArcherETHTip,
   useUserArcherGasPrice,

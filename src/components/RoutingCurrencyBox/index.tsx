@@ -1,7 +1,7 @@
 import { FC } from "react";
 import CurrencyLogo from "../../components/CurrencyLogo";
 import { FLEXUSD, TANGO } from '../../config/tokens'
-import { WBCH, ChainId, Currency } from '@tangoswapcash/sdk'
+import { WBCH, ChainId, Currency } from '@cryptoscalper/sdk'
 
 interface RoutingCurrencyBoxProps {
   currencyGroup: [string, {percentage: number, exchange: string, currency: string}[]]

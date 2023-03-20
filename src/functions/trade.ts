@@ -8,7 +8,7 @@ import {
   Trade,
   TradeType,
   currencyEquals,
-} from '@tangoswapcash/sdk'
+} from '@cryptoscalper/sdk'
 import { ONE_HUNDRED_PERCENT, ZERO_PERCENT } from '../constants'
 
 import { BigNumber } from '@ethersproject/bignumber'

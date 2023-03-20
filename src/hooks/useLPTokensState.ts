@@ -1,4 +1,4 @@
-import { ChainId, Token, Currency, CurrencyAmount } from "@tangoswapcash/sdk";
+import { ChainId, Token, Currency, CurrencyAmount } from "@cryptoscalper/sdk";
 import { BENSWAP_TOKENS } from '../config/tokens'
 import { useTokenBalances } from '../state/wallet/hooks'
 import { useCallback, useEffect, useRef, useState } from "react";

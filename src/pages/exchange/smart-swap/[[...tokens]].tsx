@@ -5,7 +5,7 @@ import {
   JSBI,
   Token,
   TradeSmart
-} from '@tangoswapcash/sdk'
+} from '@cryptoscalper/sdk'
 import { ApprovalState, useApproveCallbackFromTradeSmart } from '../../../hooks/useApproveCallback'
 import { ArrowWrapper, BottomGrouping, SwapCallbackError } from '../../../features/exchange-v1/swap/styleds'
 import { ButtonConfirmed, ButtonError } from '../../../components/Button'

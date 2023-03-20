@@ -1,4 +1,4 @@
-import { ChainId, JSBI } from '@tangoswapcash/sdk'
+import { ChainId, JSBI } from '@cryptoscalper/sdk'
 
 import { BigNumber } from '@ethersproject/bignumber'
 

@@ -1,4 +1,4 @@
-import { ChainId, Currency, NATIVE, WNATIVE } from '@tangoswapcash/sdk'
+import { ChainId, Currency, NATIVE, WNATIVE } from '@cryptoscalper/sdk'
 
 export function unwrappedToken(currency: Currency): Currency {
   if (currency.isNative) return currency

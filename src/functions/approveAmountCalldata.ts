@@ -1,4 +1,4 @@
-import { BigintIsh, Currency, CurrencyAmount, JSBI } from '@tangoswapcash/sdk'
+import { BigintIsh, Currency, CurrencyAmount, JSBI } from '@cryptoscalper/sdk'
 
 import { Interface } from '@ethersproject/abi'
 

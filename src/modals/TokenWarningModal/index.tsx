@@ -2,7 +2,7 @@ import React, { useCallback } from 'react'
 
 import { ImportToken } from '../SearchModal/ImportToken'
 import Modal from '../../components/Modal'
-import { Token } from '@tangoswapcash/sdk'
+import { Token } from '@cryptoscalper/sdk'
 
 export default function TokenWarningModal({
   isOpen,

@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Price } from '@tangoswapcash/sdk'
+import { Currency, CurrencyAmount, Price } from '@cryptoscalper/sdk'
 import { FC, useState } from 'react'
 import { Field } from '../../../state/limit-order/actions'
 

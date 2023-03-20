@@ -1,4 +1,4 @@
-import { ChainId, Currency, Token, currencyEquals } from '@tangoswapcash/sdk'
+import { ChainId, Currency, Token, currencyEquals } from '@cryptoscalper/sdk'
 
 import { AutoColumn } from '../../components/Column'
 import { AutoRow } from '../../components/Row'

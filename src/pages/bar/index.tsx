@@ -1,10 +1,10 @@
 import { ApprovalState, useApproveCallback } from '../../hooks/useApproveCallback'
-import { BAR_ADDRESS, ZERO } from '@tangoswapcash/sdk'
+import { BAR_ADDRESS, ZERO } from '@cryptoscalper/sdk'
 import React, { useEffect, useState } from 'react'
 import { TANGO, XTANGO } from '../../config/tokens'
 
 import Button from '../../components/Button'
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import Container from '../../components/Container'
 import Dots from '../../components/Dots'
 import Head from 'next/head'

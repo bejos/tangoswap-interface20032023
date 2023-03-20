@@ -1,4 +1,4 @@
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 
 // Multichain Explorer
 const builders = {

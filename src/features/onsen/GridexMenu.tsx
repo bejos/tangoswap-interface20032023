@@ -1,4 +1,4 @@
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import NavLink from '../../components/NavLink'
 import React from 'react'
 import { t } from '@lingui/macro'

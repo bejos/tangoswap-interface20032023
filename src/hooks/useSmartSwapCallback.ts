@@ -8,7 +8,7 @@ import {
   JSBI,
   Percent,
   TradeSmart,
-} from '@tangoswapcash/sdk'
+} from '@cryptoscalper/sdk'
 import { arrayify, hexlify, splitSignature } from '@ethersproject/bytes'
 import { isAddress, isZero } from '../functions/validate'
 import { useFactoryContract, useSmartSwapContract } from './useContract'

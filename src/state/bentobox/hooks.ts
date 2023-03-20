@@ -1,4 +1,4 @@
-import { KASHI_ADDRESS, FLEXUSD_ADDRESS, WNATIVE_ADDRESS } from '@tangoswapcash/sdk'
+import { KASHI_ADDRESS, FLEXUSD_ADDRESS, WNATIVE_ADDRESS } from '@cryptoscalper/sdk'
 import { useBentoBoxContract, useBoringHelperContract, useContract } from '../../hooks/useContract'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 

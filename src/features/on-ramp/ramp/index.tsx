@@ -1,4 +1,4 @@
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import { RampInstantSDK } from '@ramp-network/ramp-instant-sdk'
 import { t } from '@lingui/macro'
 import { useActiveWeb3React } from '../../../hooks'

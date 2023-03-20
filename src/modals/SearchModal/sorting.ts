@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Token } from '@tangoswapcash/sdk'
+import { Currency, CurrencyAmount, Token } from '@cryptoscalper/sdk'
 
 import { useAllTokenBalances } from '../../state/wallet/hooks'
 import { useMemo } from 'react'

@@ -1,5 +1,5 @@
 import { AlertTriangle, ArrowDown } from 'react-feather'
-import { Currency, Percent, TradeSmart } from '@tangoswapcash/sdk'
+import { Currency, Percent, TradeSmart } from '@cryptoscalper/sdk'
 import React, { useState } from 'react'
 import { isAddress, shortenAddress } from '../../../functions'
 

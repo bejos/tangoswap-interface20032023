@@ -1,4 +1,4 @@
-import { ChainId, Currency, NATIVE, TANGO_ADDRESS } from '@tangoswapcash/sdk'
+import { ChainId, Currency, NATIVE, TANGO_ADDRESS } from '@cryptoscalper/sdk'
 import { Feature, featureEnabled } from '../../functions/feature'
 import React, { useEffect, useState } from 'react'
 

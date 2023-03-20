@@ -1,4 +1,4 @@
-import { ChainId, Currency, WNATIVE } from '@tangoswapcash/sdk'
+import { ChainId, Currency, WNATIVE } from '@cryptoscalper/sdk'
 import React, { FunctionComponent, useMemo } from 'react'
 
 import Logo from '../Logo'

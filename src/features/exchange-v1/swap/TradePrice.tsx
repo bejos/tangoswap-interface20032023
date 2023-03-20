@@ -1,4 +1,4 @@
-import { Currency, Price } from '@tangoswapcash/sdk'
+import { Currency, Price } from '@cryptoscalper/sdk'
 import React, { useCallback } from 'react'
 
 import Typography from '../../../components/Typography'

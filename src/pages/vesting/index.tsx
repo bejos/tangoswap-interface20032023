@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Token } from '@tangoswapcash/sdk'
+import { Currency, CurrencyAmount, Token } from '@cryptoscalper/sdk'
 import React, { useEffect, useState } from 'react'
 import { useClaimCallback, useUserUnclaimedAmount } from '../../state/claim/hooks'
 import { useModalOpen, useToggleSelfClaimModal } from '../../state/application/hooks'

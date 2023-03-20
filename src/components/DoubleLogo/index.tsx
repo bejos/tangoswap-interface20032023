@@ -1,4 +1,4 @@
-import { Currency } from '@tangoswapcash/sdk'
+import { Currency } from '@cryptoscalper/sdk'
 import CurrencyLogo from '../CurrencyLogo'
 import React from 'react'
 import { classNames } from '../../functions'

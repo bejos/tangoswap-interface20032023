@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Token } from '@tangoswapcash/sdk'
+import { Currency, CurrencyAmount, Token } from '@cryptoscalper/sdk'
 import React, { CSSProperties, MutableRefObject, useCallback, useMemo } from 'react'
 import { RowBetween, RowFixed } from '../../components/Row'
 

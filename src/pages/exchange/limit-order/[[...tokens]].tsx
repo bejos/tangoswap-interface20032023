@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@tangoswapcash/sdk'
+import { ChainId, Token } from '@cryptoscalper/sdk'
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { formatPercent, maxAmountSpend, tryParseAmount } from '../../../functions'
 import { useAllTokens, useCurrency } from '../../../hooks/Tokens'

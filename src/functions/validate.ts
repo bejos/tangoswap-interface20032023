@@ -1,6 +1,6 @@
 // CONVENTION isFoo -> boolean
 
-import { ChainId, Currency, Token } from '@tangoswapcash/sdk'
+import { ChainId, Currency, Token } from '@cryptoscalper/sdk'
 
 import { BigNumber } from '@ethersproject/bignumber'
 import { TokenAddressMap } from '../state/lists/hooks'

@@ -1,4 +1,4 @@
-import { Currency, Percent, TradeSmart } from '@tangoswapcash/sdk'
+import { Currency, Percent, TradeSmart } from '@cryptoscalper/sdk'
 
 import { useMemo } from 'react'
 import { useUserFeePercentWithDefault, useUserSlippageToleranceWithDefault } from '../state/user/hooks'

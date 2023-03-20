@@ -1,6 +1,6 @@
 // NOTE: Try not to add anything to thie file, it's almost entirely refactored out.
 
-import { AGGREGATOR_ADDRESS, ChainId, ORDERS_CASH_V1_ADDRESS, ROUTER_ADDRESS } from '@tangoswapcash/sdk'
+import { AGGREGATOR_ADDRESS, ChainId, ORDERS_CASH_V1_ADDRESS, ROUTER_ADDRESS } from '@cryptoscalper/sdk'
 import { JsonRpcSigner, Web3Provider } from '@ethersproject/providers'
 
 import { AddressZero } from '@ethersproject/constants'

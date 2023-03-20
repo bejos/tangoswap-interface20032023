@@ -1,4 +1,4 @@
-import { Currency, Percent, Trade, TradeType } from '@tangoswapcash/sdk'
+import { Currency, Percent, Trade, TradeType } from '@cryptoscalper/sdk'
 
 import { useMemo } from 'react'
 import { useUserSlippageToleranceWithDefault } from '../state/user/hooks'

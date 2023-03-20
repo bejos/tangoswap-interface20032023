@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, SmartBCH, JSBI, NATIVE, Token } from '@tangoswapcash/sdk'
+import { Currency, CurrencyAmount, SmartBCH, JSBI, NATIVE, Token } from '@cryptoscalper/sdk'
 import { PairState, useV2Pair } from '../../../hooks/useV2Pairs'
 import React, { useCallback, useEffect, useState } from 'react'
 

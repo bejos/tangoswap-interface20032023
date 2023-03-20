@@ -1,7 +1,7 @@
 import { useEffect, useMemo } from 'react'
 import useSWR, { SWRConfiguration } from 'swr'
 
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import { getKashiPairs, getUserKashiPairs, getBentoUserTokens } from '../fetchers/bentobox'
 import { useActiveWeb3React } from '../../../hooks'
 import { useBlock } from './blocks'

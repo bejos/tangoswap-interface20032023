@@ -1,5 +1,5 @@
 import { BigNumber, BigNumberish } from '@ethersproject/bignumber'
-import { ChainId, WNATIVE } from '@tangoswapcash/sdk'
+import { ChainId, WNATIVE } from '@cryptoscalper/sdk'
 import { getProviderOrSigner, getSigner } from '../functions/contract'
 
 import { AddressZero } from '@ethersproject/constants'

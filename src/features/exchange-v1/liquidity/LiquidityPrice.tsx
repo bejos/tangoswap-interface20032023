@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from '@tangoswapcash/sdk'
+import { Currency, Percent, Price } from '@cryptoscalper/sdk'
 
 import { Field } from '../../../state/mint/actions'
 import { ONE_BIPS } from '../../../constants'

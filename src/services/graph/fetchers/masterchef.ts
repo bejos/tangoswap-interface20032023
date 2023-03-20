@@ -7,7 +7,7 @@ import {
   poolsV2Query,
 } from '../queries'
 
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import { GRAPH_HOST } from '../constants'
 import { getTokenSubset } from './exchange'
 import { request } from 'graphql-request'

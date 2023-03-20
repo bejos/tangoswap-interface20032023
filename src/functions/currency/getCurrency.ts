@@ -1,5 +1,5 @@
 import { AddressZero } from '@ethersproject/constants'
-import { ChainId, FLEXUSD_ADDRESS } from '@tangoswapcash/sdk'
+import { ChainId, FLEXUSD_ADDRESS } from '@cryptoscalper/sdk'
 
 type Currency = { address: string; decimals: number }
 

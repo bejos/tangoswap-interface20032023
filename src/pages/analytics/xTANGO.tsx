@@ -1,4 +1,4 @@
-import { TANGO_ADDRESS } from '@tangoswapcash/sdk'
+import { TANGO_ADDRESS } from '@cryptoscalper/sdk'
 import React, { useMemo } from 'react'
 import ScrollableGraph from '../../components/ScrollableGraph'
 import AnalyticsContainer from '../../features/analytics/AnalyticsContainer'

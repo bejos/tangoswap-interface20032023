@@ -1,4 +1,4 @@
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 
 const CoreDao = 'https://raw.githubusercontent.com/tangoswap-cash/icons/master/network/smartbch.jpg'
 const CoreDaoAmber = 'https://raw.githubusercontent.com/tangoswap-cash/icons/master/network/smartbch_amber.jpg'

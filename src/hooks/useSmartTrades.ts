@@ -1,4 +1,4 @@
-import { Aggregator, Currency, CurrencyAmount, Pair, TradeSmart } from '@tangoswapcash/sdk'
+import { Aggregator, Currency, CurrencyAmount, Pair, TradeSmart } from '@cryptoscalper/sdk'
 import { PairState, useV2Pairs } from './useV2Pairs'
 
 import { BETTER_TRADE_LESS_HOPS_THRESHOLD } from '../constants'

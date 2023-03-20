@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, FACTORY_ADDRESS, Pair, computePairAddress } from '@tangoswapcash/sdk'
+import { Currency, CurrencyAmount, FACTORY_ADDRESS, Pair, computePairAddress } from '@cryptoscalper/sdk'
 
 import IUniswapV2PairABI from '@tangoswapcash/core/abi/IUniswapV2Pair.json'
 import { Interface } from '@ethersproject/abi'

@@ -1,4 +1,4 @@
-import { Currency } from '@tangoswapcash/sdk'
+import { Currency } from '@cryptoscalper/sdk'
 import React, { useCallback, useRef } from 'react'
 
 import AutoSizer from 'react-virtualized-auto-sizer'

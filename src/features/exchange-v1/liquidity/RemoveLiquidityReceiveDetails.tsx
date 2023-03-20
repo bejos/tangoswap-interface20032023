@@ -1,4 +1,4 @@
-import { Currency, NATIVE, WNATIVE, currencyEquals } from '@tangoswapcash/sdk'
+import { Currency, NATIVE, WNATIVE, currencyEquals } from '@cryptoscalper/sdk'
 
 import { AutoColumn } from '../../../components/Column'
 import CurrencyLogo from '../../../components/CurrencyLogo'

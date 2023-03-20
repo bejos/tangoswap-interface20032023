@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, CoreDao, Percent, TradeType, Trade as V2Trade } from '@tangoswapcash/sdk'
+import { ChainId, Currency, CurrencyAmount, CoreDao, Percent, TradeType, Trade as V2Trade } from '@cryptoscalper/sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

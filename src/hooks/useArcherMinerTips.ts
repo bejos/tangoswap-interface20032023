@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 import { ARCHER_GAS_URI } from '../config/archer'
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import useActiveWeb3React from './useActiveWeb3React'
 
 type T = Record<string, string>

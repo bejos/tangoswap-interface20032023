@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@tangoswapcash/sdk'
+import { ChainId, Token } from '@cryptoscalper/sdk'
 import { useLayoutEffect, useState } from 'react'
 
 import Vibrant from 'node-vibrant'

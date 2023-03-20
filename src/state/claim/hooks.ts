@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, JSBI, Token } from '@tangoswapcash/sdk'
+import { ChainId, Currency, CurrencyAmount, JSBI, Token } from '@cryptoscalper/sdk'
 import { getAddress, isAddress } from '@ethersproject/address'
 import { useEffect, useState } from 'react'
 

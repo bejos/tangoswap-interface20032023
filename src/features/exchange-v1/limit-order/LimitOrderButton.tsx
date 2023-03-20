@@ -6,7 +6,7 @@ import {
   ORDERS_CASH_V1_ADDRESS,
   Price,
   SEP206_ADDRESS,
-} from '@tangoswapcash/sdk'
+} from '@cryptoscalper/sdk'
 import Button, { ButtonProps } from '../../../components/Button'
 import { ButtonError } from '../../../components/Button'
 import { Field } from '../../../state/limit-order/actions'
@@ -20,7 +20,7 @@ import Alert from '../../../components/Alert'
 import { AppDispatch } from '../../../state'
 import ConfirmLimitOrderModal from './ConfirmLimitOrderModal'
 import Dots from '../../../components/Dots'
-import { LimitOrder } from '@tangoswapcash/sdk'
+import { LimitOrder } from '@cryptoscalper/sdk'
 import { OrderExpiration } from '../../../state/limit-order/reducer'
 import { t } from '@lingui/macro'
 import { useActiveWeb3React } from '../../../hooks/useActiveWeb3React'

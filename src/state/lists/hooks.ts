@@ -1,5 +1,5 @@
 import { AppState } from '..'
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import DEFAULT_TOKEN_LIST from '@tangoswapcash/default-token-list'
 import { TokenList } from '@uniswap/token-lists'
 import { UNSUPPORTED_LIST_URLS } from '../../config/token-lists'

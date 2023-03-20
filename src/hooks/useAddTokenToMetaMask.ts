@@ -1,4 +1,4 @@
-import { Currency, Token } from '@tangoswapcash/sdk'
+import { Currency, Token } from '@cryptoscalper/sdk'
 import { useCallback, useState } from 'react'
 
 import { getCurrencyLogoUrls } from './../components/CurrencyLogo'

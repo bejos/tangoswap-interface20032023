@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, JSBI } from '@tangoswapcash/sdk'
+import { Currency, CurrencyAmount, JSBI } from '@cryptoscalper/sdk'
 
 import { parseUnits } from '@ethersproject/units'
 

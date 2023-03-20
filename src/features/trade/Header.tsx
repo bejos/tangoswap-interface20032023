@@ -1,4 +1,4 @@
-import { ChainId, Currency, Percent } from '@tangoswapcash/sdk'
+import { ChainId, Currency, Percent } from '@cryptoscalper/sdk'
 import React, { FC, useState, useEffect } from 'react'
 import { RefreshIcon } from '@heroicons/react/outline'
 import Gas from '../../components/Gas'

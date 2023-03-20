@@ -9,7 +9,7 @@ import {
   TradeType,
   Trade as V2Trade,
   TradeSmart,
-} from '@tangoswapcash/sdk'
+} from '@cryptoscalper/sdk'
 
 import { useCallback, useMemo } from 'react'
 import { useHasPendingApproval, useTransactionAdder } from '../state/transactions/hooks'

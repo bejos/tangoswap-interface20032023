@@ -12,7 +12,7 @@ import {
 } from '../../services/graph'
 
 import { BigNumber } from '@ethersproject/bignumber'
-import { ChainId, WNATIVE, Token, CurrencyAmount, JSBI, WBCH, MASTERCHEF_ADDRESS, MASTERCHEF_V2_ADDRESS } from '@tangoswapcash/sdk'
+import { ChainId, WNATIVE, Token, CurrencyAmount, JSBI, WBCH, MASTERCHEF_ADDRESS, MASTERCHEF_V2_ADDRESS } from '@cryptoscalper/sdk'
 import { TANGO, FLEXUSD, LAWUSD } from '../../config/tokens'
 import Container from '../../components/Container'
 import FarmList from '../../features/onsen/FarmList'

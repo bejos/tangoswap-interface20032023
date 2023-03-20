@@ -13,7 +13,7 @@ import {
   transactionsQuery,
 } from '../queries'
 
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import { GRAPH_HOST } from '../constants'
 import { pager } from './'
 

@@ -17,7 +17,7 @@ import {
   TANGO_ADDRESS,
   TANGOROLL_ADDRESS,
   WNATIVE_ADDRESS,
-} from '@tangoswapcash/sdk'
+} from '@cryptoscalper/sdk'
 
 import {
   ARGENT_WALLET_DETECTOR_ABI,

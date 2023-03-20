@@ -1,4 +1,4 @@
-import { JSBI, Percent } from '@tangoswapcash/sdk'
+import { JSBI, Percent } from '@cryptoscalper/sdk'
 
 // converts a basis points value to a sdk percent
 export function basisPointsToPercent(num: number): Percent {

@@ -1,4 +1,4 @@
-import { ChainId } from '@tangoswapcash/sdk'
+import { ChainId } from '@cryptoscalper/sdk'
 import { createAction } from '@reduxjs/toolkit'
 
 export interface SerializableTransactionReceipt {
