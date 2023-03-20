@@ -9,9 +9,9 @@ interface RoutingCurrencyBoxProps {
 }
 
 const swapCurrencies = {
-  BCH: WBCH[ChainId.SMARTBCH],
+  BCH: WBCH[ChainId.COREDAO],
   flexUSD: FLEXUSD,
-  TANGO: TANGO[ChainId.SMARTBCH],
+  TANGO: TANGO[ChainId.COREDAO],
 }
 
 const RoutingCurrencyBox: FC<RoutingCurrencyBoxProps> = ({ currencyGroup, outputCurrency }) => {

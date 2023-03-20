@@ -16,30 +16,30 @@ const MIRROR_ADDITIONAL_BASES: { [tokenAddress: string]: Token[] } = {
 
 // TODO: SDK should have two maps, WETH map and WNATIVE map.
 const WRAPPED_NATIVE_ONLY: ChainTokenList = {
-  [ChainId.SMARTBCH]: [WNATIVE[ChainId.SMARTBCH]],
-  [ChainId.SMARTBCH_AMBER]: [WNATIVE[ChainId.SMARTBCH_AMBER]],
+  [ChainId.COREDAO]: [WNATIVE[ChainId.COREDAO]],
+  [ChainId.COREDAO_AMBER]: [WNATIVE[ChainId.COREDAO_AMBER]],
 }
 
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WRAPPED_NATIVE_ONLY,
-  [ChainId.SMARTBCH]: [
-    ...WRAPPED_NATIVE_ONLY[ChainId.SMARTBCH],
-    FLEXUSD[ChainId.SMARTBCH],
+  [ChainId.COREDAO]: [
+    ...WRAPPED_NATIVE_ONLY[ChainId.COREDAO],
+    FLEXUSD[ChainId.COREDAO],
     BCUSDT,
     BCBCH,
     LAWUSD,
     LAW,
     GOC,
-    TANGO[ChainId.SMARTBCH]
+    TANGO[ChainId.COREDAO]
   ],
-  [ChainId.SMARTBCH_AMBER]: [...WRAPPED_NATIVE_ONLY[ChainId.SMARTBCH_AMBER]],
+  [ChainId.COREDAO_AMBER]: [...WRAPPED_NATIVE_ONLY[ChainId.COREDAO_AMBER]],
 }
 
 export const ADDITIONAL_BASES: {
   [chainId: number]: { [tokenAddress: string]: Token[] }
 } = {
-  [ChainId.SMARTBCH]: {
+  [ChainId.COREDAO]: {
     ...MIRROR_ADDITIONAL_BASES,
   },
 }
@@ -56,42 +56,42 @@ export const CUSTOM_BASES: {
  * Shows up in the currency select for swap and add liquidity
  */
 export const COMMON_BASES: ChainTokenList = {
-  [ChainId.SMARTBCH]: [
-    ...WRAPPED_NATIVE_ONLY[ChainId.SMARTBCH],
-    TANGO[ChainId.SMARTBCH],
-    FLEXUSD[ChainId.SMARTBCH],
+  [ChainId.COREDAO]: [
+    ...WRAPPED_NATIVE_ONLY[ChainId.COREDAO],
+    TANGO[ChainId.COREDAO],
+    FLEXUSD[ChainId.COREDAO],
     BCUSDT,
     BCBCH,
   ],
-  [ChainId.SMARTBCH_AMBER]: [
-    ...WRAPPED_NATIVE_ONLY[ChainId.SMARTBCH_AMBER],
-    TANGO[ChainId.SMARTBCH_AMBER],
-    FLEXUSD[ChainId.SMARTBCH_AMBER],
+  [ChainId.COREDAO_AMBER]: [
+    ...WRAPPED_NATIVE_ONLY[ChainId.COREDAO_AMBER],
+    TANGO[ChainId.COREDAO_AMBER],
+    FLEXUSD[ChainId.COREDAO_AMBER],
   ],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   ...WRAPPED_NATIVE_ONLY,
-  [ChainId.SMARTBCH]: [
-    ...WRAPPED_NATIVE_ONLY[ChainId.SMARTBCH],
-    TANGO[ChainId.SMARTBCH],
-    FLEXUSD[ChainId.SMARTBCH],
+  [ChainId.COREDAO]: [
+    ...WRAPPED_NATIVE_ONLY[ChainId.COREDAO],
+    TANGO[ChainId.COREDAO],
+    FLEXUSD[ChainId.COREDAO],
     BCUSDT,
     BCBCH,
     LAWUSD,
     LAW,
   ],
-  [ChainId.SMARTBCH_AMBER]: [...WRAPPED_NATIVE_ONLY[ChainId.SMARTBCH_AMBER]],
+  [ChainId.COREDAO_AMBER]: [...WRAPPED_NATIVE_ONLY[ChainId.COREDAO_AMBER]],
 }
 
 export const PINNED_PAIRS: {
   readonly [chainId in ChainId]?: [Token, Token][]
 } = {
-  [ChainId.SMARTBCH]: [
-      [TANGO[ChainId.SMARTBCH], WNATIVE[ChainId.SMARTBCH]],
+  [ChainId.COREDAO]: [
+      [TANGO[ChainId.COREDAO], WNATIVE[ChainId.COREDAO]],
   ],
-  [ChainId.SMARTBCH_AMBER]: [
-      [TANGO[ChainId.SMARTBCH_AMBER], WNATIVE[ChainId.SMARTBCH_AMBER]]
+  [ChainId.COREDAO_AMBER]: [
+      [TANGO[ChainId.COREDAO_AMBER], WNATIVE[ChainId.COREDAO_AMBER]]
   ],
 }

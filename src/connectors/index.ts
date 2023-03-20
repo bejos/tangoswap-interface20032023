@@ -18,7 +18,7 @@ export function getNetwork(defaultChainId, urls = RPC) {
 }
 
 export const network = new NetworkConnector({
-  defaultChainId: ChainId.SMARTBCH,
+  defaultChainId: ChainId.COREDAO,
   urls: RPC,
 })
 
@@ -40,8 +40,8 @@ export const walletconnect = new WalletConnectConnector({
   bridge: 'https://bridge.walletconnect.org',
   qrcode: true,
   supportedChainIds: [
-    ChainId.SMARTBCH,
-    ChainId.SMARTBCH_AMBER,
+    ChainId.COREDAO,
+    ChainId.COREDAO_AMBER,
   ],
   chainId: network.provider.chainId
 })
@@ -49,25 +49,25 @@ export const walletconnect = new WalletConnectConnector({
 // mainnet only
 export const fortmatic = new FortmaticConnector({
   apiKey: process.env.NEXT_PUBLIC_FORTMATIC_API_KEY ?? '',
-  chainId: ChainId.SMARTBCH,
+  chainId: ChainId.COREDAO,
 })
 
 // mainnet only
 export const portis = new PortisConnector({
   dAppId: process.env.NEXT_PUBLIC_PORTIS_ID ?? '',
-  networks: [ChainId.SMARTBCH],
+  networks: [ChainId.COREDAO],
 })
 
 // mainnet only
 export const walletlink = new WalletLinkConnector({
-  url: RPC[ChainId.SMARTBCH],
+  url: RPC[ChainId.COREDAO],
   appName: 'TangoSwap',
   appLogoUrl: 'https://raw.githubusercontent.com/tangoswap-cash/art/master/TANGO/logo-256x256.png',
 })
 
 // mainnet only
 export const torus = new TorusConnector({
-  chainId: ChainId.SMARTBCH,
+  chainId: ChainId.COREDAO,
 })
 
 // binance only

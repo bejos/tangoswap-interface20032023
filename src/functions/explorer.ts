@@ -48,11 +48,11 @@ interface ChainObject {
 }
 
 const chains: ChainObject = {
-  [ChainId.SMARTBCH]: {
+  [ChainId.COREDAO]: {
     chainName: '',
     builder: builders.sonar,
   },
-  [ChainId.SMARTBCH_AMBER]: {
+  [ChainId.COREDAO_AMBER]: {
     chainName: 'amber',
     builder: builders.sonaramber,
   },

@@ -3,7 +3,7 @@ import {
   ChainId,
   Currency,
   CurrencyAmount,
-  SmartBCH,
+  CoreDao,
   JSBI,
   Percent,
   Router,
@@ -124,7 +124,7 @@ export function useSwapCallArguments(
             allowedSlippage,
             recipient,
             ttl: deadline.toNumber(),
-            ethTip: CurrencyAmount.fromRawAmount(SmartBCH.onChain(ChainId.SMARTBCH), archerETHTip),
+            ethTip: CurrencyAmount.fromRawAmount(CoreDao.onChain(ChainId.COREDAO), archerETHTip),
           })
         )
       }
@@ -443,7 +443,7 @@ export function useSwapCallback(
               const chainNames: {
                 [chainId in ChainId]?: string
               } = {
-                [ChainId.SMARTBCH]: 'smartbch',
+                [ChainId.COREDAO]: 'coredao',
               }
               const chain = chainNames[chainId]
               if (!chain) throw new Error(`Unknown chain ID ${chainId} when building transaction`)

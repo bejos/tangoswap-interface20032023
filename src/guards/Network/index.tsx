@@ -56,7 +56,7 @@ const Component: FC<NetworkGuardProps> = ({ children, networks = [] }) => {
                 onClick={() => {
                   const params = SUPPORTED_NETWORKS[key]
                   cookie.set('chainId', key)
-                  if (key === ChainId.SMARTBCH) {
+                  if (key === ChainId.COREDAO) {
                     library?.send('wallet_switchEthereumChain', [{ chainId: '0x2710' }, account])
                   } else {
                     library?.send('wallet_addEthereumChain', [params, account])

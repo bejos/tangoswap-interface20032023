@@ -2,7 +2,7 @@ import {
   ChainId,
   Currency,
   CurrencyAmount,
-  SmartBCH,
+  CoreDao,
   SwapParameters,
   Trade,
   TradeOptions,
@@ -69,12 +69,12 @@ export abstract class ArcherRouter {
     trade: Trade<Currency, Currency, TradeType>,
     options: ArcherTradeOptions
   ): ArcherSwapParameters {
-    const etherIn = trade.inputAmount.currency === SmartBCH.onChain(ChainId.SMARTBCH)
-    const etherOut = trade.outputAmount.currency === SmartBCH.onChain(ChainId.SMARTBCH)
+    const etherIn = trade.inputAmount.currency === CoreDao.onChain(ChainId.COREDAO)
+    const etherOut = trade.outputAmount.currency === CoreDao.onChain(ChainId.COREDAO)
     // the router does not support both ether in and out
     invariant(!(etherIn && etherOut), 'ETHER_IN_OUT')
     invariant(!('ttl' in options) || options.ttl > 0, 'TTL')
-    invariant('ethTip' in options && options.ethTip?.currency === SmartBCH.onChain(ChainId.SMARTBCH))
+    invariant('ethTip' in options && options.ethTip?.currency === CoreDao.onChain(ChainId.COREDAO))
 
     const to: string = validateAndParseAddress(options.recipient)
     const amountInCurrency = trade.maximumAmountIn(options.allowedSlippage)

@@ -113,7 +113,7 @@ function MyApp({
         <meta
           key="description"
           name="description"
-          content="Trade, launch, stake, farm, invest, automate, build on the premier DeFi platform of smartBCH"
+          content="Trade, launch, stake, farm, invest, automate, build on the premier DeFi platform of COREDAO"
         />
 
         <meta name="application-name" content="TANGO App" />
@@ -133,7 +133,7 @@ function MyApp({
         <meta
           key="twitter:description"
           name="twitter:description"
-          content="Trade, launch, stake, farm, invest, automate, build on the premier DeFi platform of smartBCH"
+          content="Trade, launch, stake, farm, invest, automate, build on the premier DeFi platform of COREDAO"
         />
         <meta key="twitter:image" name="twitter:image" content="https://tangoswap.cash/icons/icon-192x192.png" />
         <meta key="twitter:creator" name="twitter:creator" content="@tangoswapcash" />
@@ -144,7 +144,7 @@ function MyApp({
         <meta
           key="og:description"
           property="og:description"
-          content="Trade, launch, stake, farm, invest, automate, build on the premier DeFi platform of smartBCH"
+          content="Trade, launch, stake, farm, invest, automate, build on the premier DeFi platform of COREDAO"
         />
       </Head>
       <I18nProvider i18n={i18n} forceRenderOnLocaleChange={false}>

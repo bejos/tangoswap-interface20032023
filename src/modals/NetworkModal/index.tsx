@@ -25,9 +25,9 @@ export const SUPPORTED_NETWORKS: {
     blockExplorerUrls: string[]
   }
 } = {
-  [ChainId.SMARTBCH]: {
+  [ChainId.COREDAO]: {
     chainId: '0x2710',
-    chainName: 'SmartBCH',
+    chainName: 'CoreDao',
     nativeCurrency: {
       name: 'Bitcoin Cash',
       symbol: 'BCH',
@@ -36,7 +36,7 @@ export const SUPPORTED_NETWORKS: {
     rpcUrls: ['https://smartbch.greyh.at'],
     blockExplorerUrls: ['https://sonar.cash'],
   },
-  [ChainId.SMARTBCH_AMBER]: {
+  [ChainId.COREDAO_AMBER]: {
     chainId: '0x2711',
     chainName: 'Amber Testnet',
     nativeCurrency: {
@@ -66,7 +66,7 @@ export default function NetworkModal(): JSX.Element | null {
       </div>
 
       <div className="grid grid-flow-row-dense grid-cols-1 gap-5 overflow-y-auto md:grid-cols-2">
-        {[ChainId.SMARTBCH].map((key: ChainId, i: number) => {
+        {[ChainId.COREDAO].map((key: ChainId, i: number) => {
           return (
             <button
               key={i}
@@ -74,7 +74,7 @@ export default function NetworkModal(): JSX.Element | null {
                 toggleNetworkModal()
                 const params = SUPPORTED_NETWORKS[key]
                 cookie.set('chainId', key)
-                if (key === ChainId.SMARTBCH) {
+                if (key === ChainId.COREDAO) {
                   library?.send('wallet_switchEthereumChain', [{ chainId: params.chainId }, account])
                 } else {
                   library?.send('wallet_addEthereumChain', [params, account])

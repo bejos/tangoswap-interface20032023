@@ -7,12 +7,12 @@ import { getTokenSubset } from './exchange'
 import { pager } from '.'
 
 export const BENTOBOX = {
-  [ChainId.SMARTBCH]: 'tangoswap/bentobox',
+  [ChainId.COREDAO]: 'tangoswap/bentobox',
 }
-export const fetcher = async (chainId = ChainId.SMARTBCH, query, variables = undefined) =>
+export const fetcher = async (chainId = ChainId.COREDAO, query, variables = undefined) =>
   pager(`${GRAPH_HOST[chainId]}/subgraphs/name/${BENTOBOX[chainId]}`, query, variables)
 
-export const getKashiPairs = async (chainId = ChainId.SMARTBCH, variables = undefined) => {
+export const getKashiPairs = async (chainId = ChainId.COREDAO, variables = undefined) => {
   const { kashiPairs } = await fetcher(chainId, kashiPairsQuery, variables)
 
   const tokens = await getTokenSubset(chainId, {
@@ -52,7 +52,7 @@ export const getKashiPairs = async (chainId = ChainId.SMARTBCH, variables = unde
   }))
 }
 
-export const getUserKashiPairs = async (chainId = ChainId.SMARTBCH, variables) => {
+export const getUserKashiPairs = async (chainId = ChainId.COREDAO, variables) => {
   const { userKashiPairs } = await fetcher(chainId, kashiUserPairsQuery, variables)
 
   return userKashiPairs.map((userPair) => ({
@@ -77,7 +77,7 @@ export const getUserKashiPairs = async (chainId = ChainId.SMARTBCH, variables) =
   }))
 }
 
-export const getBentoUserTokens = async (chainId = ChainId.SMARTBCH, variables) => {
+export const getBentoUserTokens = async (chainId = ChainId.COREDAO, variables) => {
   const { userTokens } = await fetcher(chainId, bentoUserTokensQuery, variables)
 
   return userTokens

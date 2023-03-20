@@ -38,7 +38,7 @@ const usePending = (farm) => {
 
   const contract = useMemo(
     () => ({
-      [ChainId.SMARTBCH]: cloneRewarder,
+      [ChainId.COREDAO]: cloneRewarder,
       // [ChainId.MATIC]: complexRewarder,
       // [ChainId.XDAI]: complexRewarder,
       // [ChainId.HARMONY]: complexRewarder,

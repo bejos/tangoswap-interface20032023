@@ -7,7 +7,7 @@ import axios from 'axios'
 
 const TangoPrice = () => {
   const [price, setPrice] = useState(null)
-  // const parsedAmount = tryParseAmount('1', TANGO[ChainId.SMARTBCH])
+  // const parsedAmount = tryParseAmount('1', TANGO[ChainId.COREDAO])
   // const bestTradeExactIn = useTradeExactIn(parsedAmount, BCUSDT)
 
   axios.get('https://api.coingecko.com/api/v3/simple/price?ids=tangoswap&vs_currencies=usd')

@@ -30,11 +30,11 @@ const PERMITTABLE_TOKENS: {
     [checksummedTokenAddress: string]: PermitInfo
   }
 } = {
-  [ChainId.SMARTBCH]: {
-    [TANGO[ChainId.SMARTBCH].address]: { type: PermitType.AMOUNT, name: 'TangoToken' },
+  [ChainId.COREDAO]: {
+    [TANGO[ChainId.COREDAO].address]: { type: PermitType.AMOUNT, name: 'TangoToken' },
   },
-  [ChainId.SMARTBCH_AMBER]: {
-    [TANGO[ChainId.SMARTBCH_AMBER].address]: { type: PermitType.AMOUNT, name: 'TangoToken' },
+  [ChainId.COREDAO_AMBER]: {
+    [TANGO[ChainId.COREDAO_AMBER].address]: { type: PermitType.AMOUNT, name: 'TangoToken' },
   },
 }
 

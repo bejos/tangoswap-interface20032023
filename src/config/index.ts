@@ -1,8 +1,8 @@
 import { ChainId } from '@tangoswapcash/sdk'
 
 const config = {
-  [ChainId.SMARTBCH]: {},
-  [ChainId.SMARTBCH_AMBER]: {},
+  [ChainId.COREDAO]: {},
+  [ChainId.COREDAO_AMBER]: {},
 }
 
 export default config

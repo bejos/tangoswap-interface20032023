@@ -4,7 +4,7 @@ import {
   ChainId,
   Currency,
   CurrencyAmount,
-  SmartBCH,
+  CoreDao,
   JSBI,
   Percent,
   TradeSmart,

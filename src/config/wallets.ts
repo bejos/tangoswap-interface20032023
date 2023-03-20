@@ -5,7 +5,7 @@ import { NetworkConnector } from '../entities/NetworkConnector'
 import RPC from './rpc'
 
 export const network = new NetworkConnector({
-  defaultChainId: ChainId.SMARTBCH,
+  defaultChainId: ChainId.COREDAO,
   urls: RPC,
 })
 
@@ -53,8 +53,8 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
         bridge: 'https://bridge.walletconnect.org',
         qrcode: true,
         supportedChainIds: [
-          ChainId.SMARTBCH,
-          ChainId.SMARTBCH_AMBER,
+          ChainId.COREDAO,
+          ChainId.COREDAO_AMBER,
         ],
         chainId: network.provider.chainId
       })
@@ -79,8 +79,8 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     connector: async () => {
       const KeystoneConnector = (await import('@keystonehq/keystone-connector')).KeystoneConnector
       return new KeystoneConnector({
-        chainId: ChainId.SMARTBCH,
-        url: RPC[ChainId.SMARTBCH],
+        chainId: ChainId.COREDAO,
+        url: RPC[ChainId.COREDAO],
       })
     },
     name: 'Keystone',
@@ -94,8 +94,8 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     connector: async () => {
       const LatticeConnector = (await import('@web3-react/lattice-connector')).LatticeConnector
       return new LatticeConnector({
-        chainId: ChainId.SMARTBCH,
-        url: RPC[ChainId.SMARTBCH],
+        chainId: ChainId.COREDAO,
+        url: RPC[ChainId.COREDAO],
         appName: 'TangoSwap',
       })
     },
@@ -110,7 +110,7 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     connector: async () => {
       const WalletLinkConnector = (await import('@web3-react/walletlink-connector')).WalletLinkConnector
       return new WalletLinkConnector({
-        url: RPC[ChainId.SMARTBCH],
+        url: RPC[ChainId.COREDAO],
         appName: 'TangoSwap',
         appLogoUrl: 'https://raw.githubusercontent.com/tangoswap-cash/art/master/sushi/logo-256x256.png',
       })
@@ -150,7 +150,7 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
       const PortisConnector = (await import('@web3-react/portis-connector')).PortisConnector
       return new PortisConnector({
         dAppId: process.env.NEXT_PUBLIC_PORTIS_ID ?? '',
-        networks: [ChainId.SMARTBCH],
+        networks: [ChainId.COREDAO],
       })
     },
     name: 'Portis',
@@ -164,7 +164,7 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     connector: async () => {
       const TorusConnector = (await import('@web3-react/torus-connector')).TorusConnector
       return new TorusConnector({
-        chainId: ChainId.SMARTBCH,
+        chainId: ChainId.COREDAO,
       })
     },
     name: 'Torus',

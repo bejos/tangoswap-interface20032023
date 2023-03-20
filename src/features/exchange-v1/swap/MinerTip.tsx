@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, SmartBCH } from '@tangoswapcash/sdk'
+import { ChainId, CurrencyAmount, CoreDao } from '@tangoswapcash/sdk'
 import {
   useUserArcherETHTip,
   useUserArcherGasPrice,
@@ -105,7 +105,7 @@ export default function MinerTip() {
           Miner Tip
         </Typography>
         <Typography variant="sm" className="text-secondary" onClick={toggleSettings}>
-          {CurrencyAmount.fromRawAmount(SmartBCH.onChain(ChainId.SMARTBCH), userETHTip).toFixed(3)} BCH
+          {CurrencyAmount.fromRawAmount(CoreDao.onChain(ChainId.COREDAO), userETHTip).toFixed(3)} BCH
         </Typography>
       </div>
       {!userTipManualOverride && (

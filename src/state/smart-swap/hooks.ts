@@ -109,13 +109,13 @@ export function useSmartSwapActionHandlers(): {
 
 // TODO: Swtich for ours...
 const BAD_RECIPIENT_ADDRESSES: { [chainId: string]: { [address: string]: true } } = {
-  [ChainId.SMARTBCH]: {
-    [FACTORY_ADDRESS[ChainId.SMARTBCH]]: true,
-    [ROUTER_ADDRESS[ChainId.SMARTBCH]]: true,
+  [ChainId.COREDAO]: {
+    [FACTORY_ADDRESS[ChainId.COREDAO]]: true,
+    [ROUTER_ADDRESS[ChainId.COREDAO]]: true,
   },
-  [ChainId.SMARTBCH_AMBER]: {
-    [FACTORY_ADDRESS[ChainId.SMARTBCH_AMBER]]: true,
-    [ROUTER_ADDRESS[ChainId.SMARTBCH_AMBER]]: true,
+  [ChainId.COREDAO_AMBER]: {
+    [FACTORY_ADDRESS[ChainId.COREDAO_AMBER]]: true,
+    [ROUTER_ADDRESS[ChainId.COREDAO_AMBER]]: true,
   },
 }
 
@@ -326,7 +326,7 @@ export function defaultSwapState(): SmartSwapState {
   return queryParametersToSwapState(initialState)
 }
 
-export function queryParametersToSwapState(parsedQs: ParsedQs, chainId: ChainId = ChainId.SMARTBCH): SmartSwapState {
+export function queryParametersToSwapState(parsedQs: ParsedQs, chainId: ChainId = ChainId.COREDAO): SmartSwapState {
   let inputCurrency = parseCurrencyFromURLParameter(parsedQs.inputCurrency)
   let outputCurrency = parseCurrencyFromURLParameter(parsedQs.outputCurrency)
   const eth = 'BCH'

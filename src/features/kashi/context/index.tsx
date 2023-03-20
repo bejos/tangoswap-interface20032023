@@ -232,7 +232,7 @@ export function KashiProvider({ children }) {
     if (
       !account ||
       !chainId ||
-      ![/*ChainId.SMARTBCH*/, ChainId.SMARTBCH_AMBER].includes(chainId)
+      ![/*ChainId.COREDAO*/, ChainId.COREDAO_AMBER].includes(chainId)
     ) {
       return
     }

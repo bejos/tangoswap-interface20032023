@@ -33,7 +33,7 @@ export function useChefContract(chef: Chef) {
 }
 
 const CHEFS = {
-  [ChainId.SMARTBCH]: [Chef.MASTERCHEF, Chef.MASTERCHEF_V2],
+  [ChainId.COREDAO]: [Chef.MASTERCHEF, Chef.MASTERCHEF_V2],
 }
 
 export function useChefContracts(chefs: Chef[]) {

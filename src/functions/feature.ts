@@ -14,7 +14,7 @@ export enum Feature {
 }
 
 const features = {
-  [ChainId.SMARTBCH]: [
+  [ChainId.COREDAO]: [
     Feature.AMM,
     Feature.LIQUIDITY_MINING,
     // Feature.MIGRATE,
@@ -22,7 +22,7 @@ const features = {
     Feature.STAKING,
     Feature.GRIDEX
   ],
-  [ChainId.SMARTBCH_AMBER]: [
+  [ChainId.COREDAO_AMBER]: [
     Feature.AMM,
     Feature.LIQUIDITY_MINING,
     /*

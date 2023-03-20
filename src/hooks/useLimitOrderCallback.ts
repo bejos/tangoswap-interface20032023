@@ -1,5 +1,5 @@
 import { BIPS_BASE, EIP_1559_ACTIVATION_BLOCK } from '../constants'
-import { LimitOrder, ChainId, Currency, CurrencyAmount, SmartBCH, JSBI, Percent, TradeSmart } from '@tangoswapcash/sdk'
+import { LimitOrder, ChainId, Currency, CurrencyAmount, CoreDao, JSBI, Percent, TradeSmart } from '@tangoswapcash/sdk'
 import { arrayify, hexlify, splitSignature } from '@ethersproject/bytes'
 import { isAddress, isZero } from '../functions/validate'
 import { useLimitOrderContract } from './useContract'

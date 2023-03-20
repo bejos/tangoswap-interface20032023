@@ -23,7 +23,7 @@ export const initialState: SmartSwapState = {
     currencyId: 'BCH',
   },
   [Field.OUTPUT]: {
-    currencyId: TANGO_ADDRESS[ChainId.SMARTBCH],
+    currencyId: TANGO_ADDRESS[ChainId.COREDAO],
   },
   recipient: null,
 }

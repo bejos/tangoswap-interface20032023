@@ -6,8 +6,8 @@ import { WrappedTokenInfo } from '../../state/lists/wrappedTokenInfo'
 import useHttpLocations from '../../hooks/useHttpLocations'
 
 const BLOCKCHAIN = {
-  [ChainId.SMARTBCH]: 'smartbch',
-  [ChainId.SMARTBCH_AMBER]: 'amber',
+  [ChainId.COREDAO]: 'coredao',
+  [ChainId.COREDAO_AMBER]: 'amber',
 }
 
 function getCurrencySymbol(currency) {
@@ -40,8 +40,8 @@ export function getCurrencyLogoUrls(currency) {
 const BitcoinCashLogo = 'https://raw.githubusercontent.com/tangoswap-cash/icons/master/token/bch.png'
 
 const LOGO: { readonly [chainId in ChainId]?: string } = {
-  [ChainId.SMARTBCH]: BitcoinCashLogo,
-  [ChainId.SMARTBCH_AMBER]: BitcoinCashLogo,
+  [ChainId.COREDAO]: BitcoinCashLogo,
+  [ChainId.COREDAO_AMBER]: BitcoinCashLogo,
 }
 
 interface CurrencyLogoProps {

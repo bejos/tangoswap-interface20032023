@@ -96,7 +96,7 @@ export default function SettingsTab(
                 }
               />
             </div>
-            {/* {chainId == ChainId.SMARTBCH && (
+            {/* {chainId == ChainId.COREDAO && (
               <div className="flex items-center justify-between">
                 <div className="flex items-center">
                   <Typography variant="sm" className="text-primary">

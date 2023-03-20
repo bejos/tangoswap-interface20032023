@@ -23,7 +23,7 @@ export abstract class AbstractOracle implements Oracle {
   data = ''
   warning = ''
   error = ''
-  chainId = ChainId.SMARTBCH
+  chainId = ChainId.COREDAO
   pair: any
   tokens: Token[]
   valid = false

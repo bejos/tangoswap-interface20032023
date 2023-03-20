@@ -6,12 +6,12 @@ type Currency = { address: string; decimals: number }
 // Pricing currency
 // TODO: Check decimals and finish table
 export const USD_CURRENCY: { [chainId in ChainId]?: Currency } = {
-  [ChainId.SMARTBCH]: {
-    address: FLEXUSD_ADDRESS[ChainId.SMARTBCH],
+  [ChainId.COREDAO]: {
+    address: FLEXUSD_ADDRESS[ChainId.COREDAO],
     decimals: 18,
   },
-  [ChainId.SMARTBCH_AMBER]: {
-    address: FLEXUSD_ADDRESS[ChainId.SMARTBCH_AMBER],
+  [ChainId.COREDAO_AMBER]: {
+    address: FLEXUSD_ADDRESS[ChainId.COREDAO_AMBER],
     decimals: 18,
   },
 }
