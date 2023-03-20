@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount, CoreDao } from '@tangoswapcash/sdk'
+import { ChainId, CurrencyAmount, CoreDAO } from '@tangoswapcash/sdk'
 import { CheckCircleIcon, ExclamationIcon, XCircleIcon } from '@heroicons/react/outline'
 import React, { FC, useCallback, useMemo } from 'react'
 
@@ -105,7 +105,7 @@ const Transaction: FC<{ hash: string }> = ({ hash }) => {
       {archer && (
         <Typography variant="sm" weight={400} className="flex items-center justify-between pb-1 text-decoration-none">
           {`#${archer.nonce} - Tip ${CurrencyAmount.fromRawAmount(
-            CoreDao.onChain(ChainId.COREDAO),
+            CoreDAO.onChain(ChainId.COREDAO),
             archer.ethTip
           ).toSignificant(6)} BCH`}
           {pending ? (
