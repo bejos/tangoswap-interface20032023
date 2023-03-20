@@ -114,7 +114,7 @@ export function AdvancedSwapDetails({ trade, allowedSlippage, minerBribe }: Adva
             <QuestionHelper text={i18n._(t`Tip to encourage miners to select this transaction.`)} />
           </RowFixed>
           <div className="text-sm font-bold text-high-emphesis">
-            {CurrencyAmount.fromRawAmount(CoreDao.onChain(ChainId.COREDAO), minerBribe).toFixed(4)} BCH
+            {CurrencyAmount.fromRawAmount(CoreDAO.onChain(ChainId.COREDAO), minerBribe).toFixed(4)} BCH
           </div>
         </RowBetween>
       )}
