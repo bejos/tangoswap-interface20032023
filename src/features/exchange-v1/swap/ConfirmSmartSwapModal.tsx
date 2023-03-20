@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, CoreDao, Percent, TradeSmart } from '@cryptoscalper/sdk'
+import { ChainId, Currency, CurrencyAmount, CoreDAO, Percent, TradeSmart } from '@cryptoscalper/sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,
@@ -90,10 +90,10 @@ export default function ConfirmSmartSwapModal({
 
   const pendingText2 = minerBribe
     ? trade?.outputAmount.currency.isNative
-      ? `Minus ${CurrencyAmount.fromRawAmount(CoreDao.onChain(ChainId.COREDAO), minerBribe).toSignificant(
+      ? `Minus ${CurrencyAmount.fromRawAmount(CoreDAO.onChain(ChainId.COREDAO), minerBribe).toSignificant(
           6
         )} BCH Miner Tip`
-      : `Plus ${CurrencyAmount.fromRawAmount(CoreDao.onChain(ChainId.COREDAO), minerBribe).toSignificant(
+      : `Plus ${CurrencyAmount.fromRawAmount(CoreDAO.onChain(ChainId.COREDAO), minerBribe).toSignificant(
           6
         )} BCH Miner Tip`
     : undefined
