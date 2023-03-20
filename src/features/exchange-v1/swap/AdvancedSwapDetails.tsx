@@ -1,4 +1,4 @@
-import { ChainId, Currency, CurrencyAmount, CoreDao, Percent, TradeType, Trade as V2Trade } from '@cryptoscalper/sdk'
+import { ChainId, Currency, CurrencyAmount, CoreDAO, Percent, TradeType, Trade as V2Trade } from '@cryptoscalper/sdk'
 import React, { useMemo } from 'react'
 import { RowBetween, RowFixed } from '../../../components/Row'
 
