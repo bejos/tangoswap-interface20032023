@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Pair, Trade, TradeType } from '@import { ChainId, Currency, NATIVE, WNATIVE } from '@cryptoscalper/sdk'
-'
+import { Currency, CurrencyAmount, Pair, Trade, TradeType } from '@cryptoscalper/sdk'
+import { ChainId, Currency, NATIVE, WNATIVE } from '@cryptoscalper/sdk'
 import { PairState, useV2Pairs } from './useV2Pairs'
 
 import { BETTER_TRADE_LESS_HOPS_THRESHOLD } from '../constants'
