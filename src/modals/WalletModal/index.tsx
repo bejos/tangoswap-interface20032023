@@ -173,7 +173,7 @@ export default function WalletModal({
     }
   }, [toggleWalletModal, connector])
 
-  const switchToCoreDao = async () => {
+  const switchToCoreDAO = async () => {
     // `library` context here is invalid, we use the direct communiaction with Metamask via window.ethereum
     const params = SUPPORTED_NETWORKS[ChainId.COREDAO]
     cookie.set('chainId', ChainId.COREDAO)
@@ -312,7 +312,7 @@ export default function WalletModal({
               i18n._(t`Error connecting. Try refreshing the page.`)
             )}
             <div style={{ marginTop: '1rem' }} />
-            <ButtonConfirmed size="sm" onClick={switchToCoreDao}>
+            <ButtonConfirmed size="sm" onClick={switchToCoreDAO}>
               {i18n._(t`Switch to COREDAO Network`)}
             </ButtonConfirmed>
 

@@ -3,7 +3,7 @@ import {
   ChainId,
   Currency,
   CurrencyAmount,
-  CoreDao,
+  CoreDAO,
   JSBI,
   Percent,
   Router,
@@ -124,7 +124,7 @@ export function useSwapCallArguments(
             allowedSlippage,
             recipient,
             ttl: deadline.toNumber(),
-            ethTip: CurrencyAmount.fromRawAmount(CoreDao.onChain(ChainId.COREDAO), archerETHTip),
+            ethTip: CurrencyAmount.fromRawAmount(CoreDAO.onChain(ChainId.COREDAO), archerETHTip),
           })
         )
       }
@@ -443,7 +443,7 @@ export function useSwapCallback(
               const chainNames: {
                 [chainId in ChainId]?: string
               } = {
-                [ChainId.COREDAO]: 'coredao',
+                [ChainId.COREDAO]: 'coreDAO',
               }
               const chain = chainNames[chainId]
               if (!chain) throw new Error(`Unknown chain ID ${chainId} when building transaction`)

@@ -26,8 +26,8 @@ export const SUPPORTED_NETWORKS: {
   }
 } = {
   [ChainId.COREDAO]: {
-    chainId: '0x2710',
-    chainName: 'CoreDao',
+    chainId: '1116',
+    chainName: 'CoreDAO',
     nativeCurrency: {
       name: 'Bitcoin Cash',
       symbol: 'BCH',
@@ -37,7 +37,7 @@ export const SUPPORTED_NETWORKS: {
     blockExplorerUrls: ['https://sonar.cash'],
   },
   [ChainId.COREDAO_AMBER]: {
-    chainId: '0x2711',
+    chainId: '1115',
     chainName: 'Amber Testnet',
     nativeCurrency: {
       name: 'Bitcoin Cash',

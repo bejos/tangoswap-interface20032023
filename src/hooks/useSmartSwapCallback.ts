@@ -4,7 +4,7 @@ import {
   ChainId,
   Currency,
   CurrencyAmount,
-  CoreDao,
+  CoreDAO,
   JSBI,
   Percent,
   TradeSmart,

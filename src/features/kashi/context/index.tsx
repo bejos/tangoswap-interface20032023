@@ -8,7 +8,7 @@ import {
   WNATIVE,
   WNATIVE_ADDRESS,
   WBCH,
-} from '@tangoswapcash/sdk'
+} from '@cryptoscalper/sdk'
 import React, { createContext, useCallback, useContext, useEffect, useReducer } from 'react'
 import { ZERO, e10, maximum, minimum } from '../../../functions/math'
 import {
